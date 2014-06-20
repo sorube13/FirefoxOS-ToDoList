@@ -26,12 +26,12 @@ var SimpleListModel = function(items) {
 
     }
 
-    // this.checkTask = function(){
-    //     var titleT = $("#titleTask").val();
-    //     var dateT = $("#dateTask").val();
+    self.checkTask = function(){
+        console.log("checked!");
+   
+    }
 
-    // }
-    this.removeTask = function (){
+    self.removeTask = function (){
         var y = self.items.indexOf(this);
         self.items.splice(y,1);
         console.log("ha funcionado");
