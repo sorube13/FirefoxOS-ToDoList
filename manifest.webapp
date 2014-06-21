@@ -1,18 +1,18 @@
 {
     "version": "1",
-    "name": "Done",
+    "name": "To Do List",
     "launch_path": "index.html",
-    "description": "Boilerplate Firefox OS app with example use cases to get started",
+    "description": "Basic To Do List example for Firefox OS",
     "icons": {
-        "16": "/Firefox-OS-Boilerplate-App/images/logo16.png",
-        "32": "/Firefox-OS-Boilerplate-App/images/logo32.png",
-        "48": "/Firefox-OS-Boilerplate-App/images/logo48.png",
-        "64": "/Firefox-OS-Boilerplate-App/images/logo64.png",
-        "128": "/Firefox-OS-Boilerplate-App/images/logo128.png"
+        "16": "/images/logo16.png",
+        "32": "/images/logo32.png",
+        "48": "/images/logo48.png",
+        "64": "/images/logo64.png",
+        "128": "/images/logo128.png"
     },
     "developer": {
-        "name": "Roberto Luis Bisbé",
-        "url": "http://robertnyman.com"
+        "name": "Silvia Orube López",
+        "url": "https://github.com/sorube13"
     },
     "installs_allowed_from": ["*"],
     "default_locale": "en",
