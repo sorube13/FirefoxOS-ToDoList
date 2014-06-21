@@ -15,7 +15,7 @@
 <section id="list" role="region" class="view" data-page-position="viewport">
   <header>
       <menu type="toolbar">
-        <button id="add-btn">Agregar</button>
+        <button id="add-btn">Add Task</button>
       </menu>
     <h1>Tareas <em>(</em><em data-bind="text: count">foo</em><em>)</em></h1>
   </header>
@@ -44,16 +44,16 @@
   <!--ADD TO TASKS-->
 <section role="region" class="view" id="add-view"  data-page-position="right">
     <header>
-    <button data-bind="click: close" id="close-btn"><span class="icon-angle-left">close</span></button>
+    <button data-bind="click: close" id="close-btn"></button>
       <menu type="toolbar">
-        <button data-bind="click: addItem" id="save-btn">Guardar</button>
+        <button data-bind="click: addItem, text: saveButton ">save</button>
       </menu>
-      <h1>Add New Task</h1>
+      <h1 id="new-task">Add New Task</h1>
     </header>
     <article>
       <form>
         <p>
-          <input type="text" placeholder="titulo de la tarea" data-bind='value: itemToAdd, valueUpdate: "afterkeydown"' />
+          <input type="text" data-bind='value: itemToAdd, valueUpdate: "afterkeydown", attr: { placeholder: objectTitle }' />
         </p>
       </form>
     </article>
